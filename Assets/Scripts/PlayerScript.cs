@@ -89,7 +89,7 @@ public class PlayerScript : MonoBehaviour
             Flip();
         }
 
-        if (inTheAir == true && vertMovement > 0)
+        if (inTheAir == true )
         {
             anim.SetInteger("State", 2);
         }
